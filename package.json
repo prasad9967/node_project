@@ -1,0 +1,25 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "about my first package",
+  "main": "none",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "prasa"
+  },
+  "keywords": [
+    "kw"
+  ],
+  "author": "prasad",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "lodash": "^4.17.21"
+  }
+}

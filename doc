@@ -1,0 +1,66 @@
+Backend / Full - Stack:
+Node and Express Fundamentals
+Complex Rest API
+MERN APP
+
+NODE: Environment to run Js outside browser. Built on Chrome's V8 JS Engine
+it is created in 2009
+
+Differences between Browser and Node.Js
+DOM,  No DOM
+Window, No Window
+Interactive Apps,  Server Side Apps
+No Filesystem,  File system
+Fragmentation, Versions
+ES6 Modules,   CommonJS
+
+In order to run the js Code in the node environment we have two ways 
+1) REPL(Read Eval Print Loop): In this method type "node" in the cmd then we get repl(console)
+2)CLI In this method  we type "node filename".
+
+
+Globals  -  No Window
+__dirname - path to current directory
+__filename - file name
+require - function to use modules (CommonJS)
+module - info about current module (file)
+process - info about env where the program is being executed
+
+
+modules:
+Common JS, every file is module (by default)
+Modules - Encapsulated Code (only share minimum)
+
+Built-in Modules:
+OS module
+Path Module
+FS (File System) Module
+HTTP Module
+
+
+Differences between Synchronous and Asynchronous
+
+When we install we automatically install npm(node package manager).
+npm enables us to do three things:
+
+npm calls the reusable code a package and a package essentially is a folder that contains a javascript code.Packages are also called as dependency of module.
+
+npmjs.com (In this we can find everything whatever we need)
+
+npm - global command, comes with node
+npm --version : to check the version of the node.
+
+local dependency - Use it only in this particular project
+npm i <packageName>
+
+
+global dependency - Use it in any project
+npm install -g <packageName>
+
+package.json  - manifest file(stores important info about project/package)
+manual approach (create package.json in the root, create properties etc)
+npm init (step by step, press enter to skip)
+npm init -y (everything default)
+the node_modules folder contains all the packages which are installed.
+
+In order to use the downloaded packages we use require function.
